@@ -96,6 +96,7 @@ input {
     background-position: 95%;
 }
 
+
 /* Col-2 */
 .page main form fieldset .col-2 {
     display: flex;
@@ -104,6 +105,12 @@ input {
 
 .page main form fieldset .col-2 .input-wrapper input {
     width: 14.4rem;
+}
+
+.page main form fieldset .col-2 .input-wrapper #event-cvv {
+    background-image: url(../images/info.svg);
+    background-repeat: no-repeat;
+    background-position: 90%;
 }
 
 /* BOTAO */

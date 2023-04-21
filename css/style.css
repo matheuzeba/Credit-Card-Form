@@ -83,6 +83,7 @@ body {
     border-radius: 1rem;
     width: 100%;
     padding: 1.5rem 1.2rem;
+    line-height: 1.9rem;
 }
 
 input {
@@ -140,7 +141,7 @@ input {
     font-weight: 300;
     font-size: 1.2rem;
     line-height: 1.4rem;
-
+    text-decoration: underline;
     color: var(--text);
 }
 
@@ -160,4 +161,5 @@ input:focus {
     width: 75%;
     background: #165268;
 }
+
 

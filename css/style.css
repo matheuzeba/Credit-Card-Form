@@ -75,7 +75,8 @@ body {
 }
 
 
-.page main form fieldset .fieldset-wrapper .input-wrapper input {
+.page main form fieldset .fieldset-wrapper .input-wrapper input,
+.page main form fieldset .col-2 .input-wrapper input {
     border: 1px solid #E2E6EE;
     height: 4rem;
     box-shadow: 0px 4px 18px rgba(158, 168, 189, 0.31);
@@ -90,3 +91,11 @@ body {
     background-position: 95%;
 }
 
+.page main form fieldset .col-2 {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.page main form fieldset .col-2 .input-wrapper input {
+    width: 14.4rem;
+}

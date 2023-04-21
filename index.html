@@ -23,19 +23,46 @@
                 <h1>Payment info</h1>
             </header>
             <form>
+                <!-- Full name -->
                 <fieldset>
                     <section class="fieldset-wrapper">
                         <section class="input-wrapper">
-                            <label for="event-name">Full name</label>
+                            <label for="event-name">Full name *</label>
                             <input type="text" id="event-name" placeholder="Write your name">
                         </section>
                     </section>
                 </fieldset>
+
+                <!-- Credit Card Number -->
                 <fieldset>
                     <section class="fieldset-wrapper">
                         <section class="input-wrapper">
-                            <label for="event-credit-card">Credit Card Number</label>
+                            <label for="event-credit-card">Credit Card Number *</label>
                             <input type="tel" id="event-credit-card" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" placeholder="1234 1234 1234 1234" required>
+                        </section>
+                    </section>
+                </fieldset>
+
+                <!-- Exp Date e CVV -->
+                <fieldset>
+                    <section class="col-2">
+                        <section class="input-wrapper">
+                            <label for="event-exp-date">Exp Date *</label>
+                            <input type="month" id="event-exp-date" placeholder= "mm/yy" required >
+                        </section>
+                        <section class="input-wrapper">
+                            <label for="event-credit-card">CVV *</label>
+                            <input type="password" id="event-cvv" placeholder="•••" required>
+                        </section>
+                    </section>
+                </fieldset>
+
+                <!-- Zip Code -->
+                <fieldset>
+                    <section class="fieldset-wrapper">
+                        <section class="input-wrapper">
+                            <label for="event-name">Full name *</label>
+                            <input type="text" id="event-name" placeholder="Write your name">
                         </section>
                     </section>
                 </fieldset>

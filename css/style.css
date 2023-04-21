@@ -84,4 +84,9 @@ body {
     padding: 1.5rem 1.2rem;
 }
 
+.page main form fieldset .fieldset-wrapper .input-wrapper #event-credit-card {
+    background-image: url(../images/credit-card.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
 

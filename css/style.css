@@ -50,7 +50,7 @@ body {
     font-size: 2rem;
     line-height: 2.3rem;
 
-    color: var(--h1);
+    color: var(--text);
 }
 
 /* FORM */
@@ -65,7 +65,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.9rem;
 
-    color: #030102;
+    color: var(--text);
 }
 
 .page main form fieldset .input-wrapper {
@@ -85,12 +85,18 @@ body {
     padding: 1.5rem 1.2rem;
 }
 
+input {
+    background: #E2E6EE;
+    transition: 0.3s;
+}
+
 .page main form fieldset .fieldset-wrapper .input-wrapper #event-credit-card {
     background-image: url(../images/credit-card.svg);
     background-repeat: no-repeat;
     background-position: 95%;
 }
 
+/* Col-2 */
 .page main form fieldset .col-2 {
     display: flex;
     gap: 1.2rem;
@@ -99,3 +105,52 @@ body {
 .page main form fieldset .col-2 .input-wrapper input {
     width: 14.4rem;
 }
+
+/* BOTAO */
+
+.page main .pay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.page main .pay input {
+    padding: 1.2rem 2.4rem;
+    border-radius: 1rem;
+    width: 100%;
+
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+
+    color: var(--white);
+    background: var(--submit-bg);
+}
+
+.page main .pay p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+
+    color: var(--text);
+}
+
+/* DETALHES */
+
+
+input:focus {
+    background: #fff;
+}
+
+.page main .pay input  {
+    transition: width 0.5s;
+}
+
+.page main .pay input:hover {
+    cursor: pointer;
+    width: 75%;
+    background: #165268;
+}
+

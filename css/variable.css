@@ -1,5 +1,16 @@
 :root {
+    /* backgrounds */
     --bg: #82CCDD;
     --main-bg: #fff;
-    --h1: #030102;
+    --input-bg: #E2E6EE;
+    --submit-bg: #288FB4;
+
+    /* texts */
+    --text: #030102;
+    --input-border: #E2E6EE;
+
+    /* colors */
+    --white: #fff;
+
+    /* inpt */
 }

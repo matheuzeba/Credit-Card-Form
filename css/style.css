@@ -11,21 +11,22 @@ body {
     justify-content: center;
 
     margin: 12rem auto;
-    width: 30rem;
+    width: 36rem;
 }
 
 /* component do formulario */
 .page main {
-    background: #FFFFFF;
+    background: var(--main-bg);
     border-radius: 20px;
-    width: 30rem;
-    padding: 2.5rem;
-    box-shadow: 0px 4px 20px rgba(77, 166, 186, 0.38);
-    
+    padding: 2.5rem 3rem;
+    width: 36rem;
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
+    
+    box-shadow: 0px 4px 20px rgba(77, 166, 186, 0.38);
 }
+
 /* header */
 
 .page main header {
@@ -51,3 +52,36 @@ body {
 
     color: var(--h1);
 }
+
+/* FORM */
+
+.page main form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.page main form fieldset .fieldset-wrapper label {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+
+    color: #030102;
+}
+
+.page main form fieldset .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.page main form fieldset .fieldset-wrapper .input-wrapper input {
+    border: 1px solid #E2E6EE;
+    height: 4rem;
+    box-shadow: 0px 4px 18px rgba(158, 168, 189, 0.31);
+    border-radius: 1rem;
+    width: 100%;
+    padding: 1.5rem 1.2rem;
+}
+
+

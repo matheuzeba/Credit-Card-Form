@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +20,26 @@
         <main>
             <header>
                 <img src="images/avatar.svg" alt="desenho de avatar">
-                <h1>Informações de pagamento</h1>
+                <h1>Payment info</h1>
             </header>
+            <form>
+                <fieldset>
+                    <section class="fieldset-wrapper">
+                        <section class="input-wrapper">
+                            <label for="event-name">Full name</label>
+                            <input type="text" id="event-name" placeholder="Write your name">
+                        </section>
+                    </section>
+                </fieldset>
+                <fieldset>
+                    <section class="fieldset-wrapper">
+                        <section class="input-wrapper">
+                            <label for="event-credit-card">Credit Card Number</label>
+                            <input type="tel" id="event-credit-card" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" placeholder="1234 1234 1234 1234" required>
+                        </section>
+                    </section>
+                </fieldset>
+            </form>
         </main>
     </div>
 </body>
